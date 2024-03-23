@@ -1,5 +1,7 @@
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 a {text-decoration: none;}
 .mainMenu ul li a {
@@ -190,4 +192,81 @@ header .top_bar::after {
 .theme_bg{background-color: #EA062B;}
 section.register_donate {
   margin-bottom: 50px;
+  background-color: #E7E7E7;
+  padding-bottom: 100px;
+}
+
+.register_news_row {
+  margin-top: 140px;
+}
+
+.register_donate_item {
+  padding: 13px;
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+}
+.register_donate_item span {
+  background: red;
+  width: 92px;
+  text-align: center;
+  position: absolute;
+  top: 47%;
+  left: 36%;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  transition: .5s;
+}
+.register_donate_content {
+  margin-top: 50px;
+}
+.register_donate_content a.btn{
+  background-color: red!important;
+}
+.register_donate_content a.btn:hover{
+  background-color: black!important;
+  border: none;
+}
+img.img_round {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  border: 10px solid #fff7f7;
+  border-radius: 50%;
+  transition: .3s;
+}
+
+img.img_round:hover {
+  border-color: red;
+}
+.help_content .sub_headline {
+  color: #EA062B;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.help_content .header {
+  font-size: 45px;
+  font-weight: 700;
+}
+.list_item ul li {
+  padding: 8px 0;
+}
+.help_content .list_item ul li svg{color:#EA062B}
+
+section.counter {
+  background: url('images/general/counter-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 100px 0;
+  padding: 130px 0;
+}
+.counter_content {
+  /* background: rebeccapurple; */
+  padding: 63px 0;
+  box-shadow: 0 0 10px #254242;
 }
