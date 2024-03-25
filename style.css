@@ -266,7 +266,15 @@ section.counter {
   padding: 130px 0;
 }
 .counter_content {
-  /* background: rebeccapurple; */
+  background: #08070863;
   padding: 63px 0;
-  box-shadow: 0 0 10px #254242;
+  color: #fdfdfd;
+}
+.counter_content .icon svg {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #fffcfc;
+}
+.counter_content .count {
+  font-size: 23px;
 }
